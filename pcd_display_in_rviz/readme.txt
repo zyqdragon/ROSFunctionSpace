@@ -1,3 +1,7 @@
+
+# create the function package
+catkin_create_pkg pcl_to_rviz pcd_conversions pcl_ros roscpp sensor_msgs;
+
 pointcloud pcd file is displayed in the rviz.
 在一个新的终端中运行roscore
 在运行source命令的终端中运行rosrun pcd_to_rviz pcd_to_rviz
